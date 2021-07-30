@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"This template does not include a test runner by default.\" && exit 1",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "vue": "^3.0.11",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-build-script": "^2.1.0",
+    "@snowpack/plugin-dotenv": "^2.1.0",
+    "@snowpack/plugin-postcss": "^1.4.3",
+    "@snowpack/plugin-sass": "^1.4.0",
+    "@snowpack/plugin-vue": "^2.4.0",
+    "@types/vue": "^2.0.0",
+    "postcss": "^8.3.6",
+    "snowpack": "^3.3.7",
+    "tailwindcss": "^2.2.7",
+    "typescript": "^4.2.4"
+  }
+}

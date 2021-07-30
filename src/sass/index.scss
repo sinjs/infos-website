@@ -1,0 +1,12 @@
+@import "./overflow.scss";
+@import "./scrollbars.scss";
+
+header span:hover,
+.card:hover {
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+header span {
+  transition: background-color 75ms ease-in-out;
+  transition: box-shadow 75ms ease-in-out;
+}
